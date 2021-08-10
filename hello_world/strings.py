@@ -17,6 +17,8 @@ print(age)
 print(type(greeting))
 print(type(age))
 
-age = "2 years"
-print(age)
+age_in_words = "2 years"
+# TypeError: can only concatenate str (not "int") to str
+# print(name + " is " + age + " years old.")
+print(name + " is " + age_in_words + " years old.")
 print(type(age))
