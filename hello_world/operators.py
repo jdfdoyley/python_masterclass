@@ -22,4 +22,3 @@ for i in range(1, num_1 // num_2):
 print(num_1 + num_2 / 3 - 4 * 12)       # 35.0
 print(num_1 + (num_2 / 3) - (4 * 12))   # 35.0
 print((((num_1 + num_2) / 3) - 4) * 12)  # 12.0
-
