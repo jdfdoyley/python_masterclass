@@ -1,4 +1,4 @@
-"""This file demonstrate the use of valid Python operators."""
+"""This file demonstrate the use of valid Python operators and expressions."""
 
 num_1 = 12
 num_2 = 3
@@ -14,4 +14,7 @@ print(num_1 % num_2)    # 0 => modulo: returns the remainder from a division
 print()
 
 for i in range(1, 4):
+    print(i)
+
+for i in range(1, num_1 // num_2):
     print(i)
