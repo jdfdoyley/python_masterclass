@@ -38,3 +38,17 @@ Today I covered the following:
 - Negative Indexing in Strings
 - Slicing
 - Slicing with Negative Numbers
+
+---
+
+### Day 3 - Python Basics
+
+Today I covered the following:
+
+- Using a Step in a Slice
+- Slicing Backwards
+- String Operators
+- String Replacement Fields
+- String Formatting
+- f-Strings
+- Python 2 String Interpolation
