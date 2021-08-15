@@ -98,3 +98,22 @@ print(string[string.find(("Foolish"))])
 string = "James Brown"
 for letter in string:
     print(letter, end=' ')
+
+print()
+
+# String Formatting/String Interpolation
+# In Python, there are three major ways to embed variables inside a string.
+
+# - printf-style % String Formatting
+string = "%s is %d years old." % ("Bob", 25)
+print(string)
+
+# - str.format() Built-in Method
+string = "{1} is {0} years old.".format(25, 'Bob')
+print(string)
+
+# - f-String Formatter
+name = "Bob"
+age = 25
+string = f"{name} is {age} years old."
+print(string)
