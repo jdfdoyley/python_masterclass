@@ -10,11 +10,6 @@ This challenge offers the ideal system for me accomplish my goal. I will documen
 
 ## My 100 Days of Code Challenge Daily Log
 
-<<<<<<< HEAD
----
-
-=======
->>>>>>> tutorial
 ### Day 1 - Python Basics
 
 Today I covered the following:
@@ -46,14 +41,40 @@ Today I covered the following:
 
 ---
 
-### Day 3 - Python Basics
+### Day 3 - Strings
 
 Today I covered the following:
 
 - Using a Step in a Slice
 - Slicing Backwards
 - String Operators
-- String Replacement Fields
-- String Formatting
-- f-Strings
-- Python 2 String Interpolation
+
+---
+
+### Day 4 - Strings
+
+Today I covered the following:
+
+- Find String Length
+- Replace text within a string
+- Split and join a string
+- String case conversion
+- Check if substring contains in a string
+- String formatting
+- String interpolation
+
+---
+
+### Day 5 - Strings
+
+Today I covered the following:
+
+- What is Python List?
+- Create a List
+- The list()
+- Nested List
+- Access List Items by Index
+- Negative List Indexing
+- Access Nested List Items
+- Slicing a List
+- Change Item Value
