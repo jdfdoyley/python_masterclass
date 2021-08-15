@@ -117,3 +117,14 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f']
 print(letters[2:5])     # ['c', 'd', 'e']
 print(letters[0:2])     # ['a', 'b']
 print(letters[3:-1])    # ['d', 'e']
+
+# CHANGE ITEM VALUE
+# You can replace an existing element with a new value by assigning the new
+# value to the index.
+
+ants = ['carpenter', 'fire', 'pharaoh']
+ants[0] = 'tapinoma'
+print(ants)             # ['tapinoma', 'fire', 'pharaoh']
+
+ants[-1] = 'carpenter'
+print(ants)             # ['tapinoma', 'fire', 'carpenter']
