@@ -28,3 +28,12 @@ print(type(age))
 
 string = "Supercalifragilisticexpialidocious"
 print(len(string))
+
+# Replace Text Within a String
+# Sometimes you want to replace a text inside a string, then you can use the
+# replace() method
+
+string = "Hello, World!"
+str_replace = string.replace('World', 'Universe')
+
+print(str_replace)
