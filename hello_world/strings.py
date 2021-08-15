@@ -22,3 +22,9 @@ age_in_words = "2 years"
 # print(name + " is " + age + " years old.")
 print(name + " is " + age_in_words + " years old.")
 print(type(age))
+
+# Find String Length
+# To find the number of characters in a string, use len() built-in function
+
+string = "Supercalifragilisticexpialidocious"
+print(len(string))
