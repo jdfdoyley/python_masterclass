@@ -51,3 +51,22 @@ nested_list = [
     'g',
     'h'
 ]
+
+# ACCESS LIST ITEMS BY INDEX
+# You can think of a list as a relationship between indexes and values.
+# This relationship is called a mapping; each index maps to one of the values.
+
+# Note that the first element of a list always at index zero.
+
+# You can access individual items in a list using an index in square brackets
+colors = ['red', 'green', 'blue', 'yellow', 'black']
+
+# first item
+print(colors[0])
+
+# third item
+print(colors[2])
+
+# Python will raise an IndexError error, if you use an index that exceeds the
+# number of items in your list.
+print(colors[10])       # IndexError: list index out of range
