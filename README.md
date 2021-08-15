@@ -10,8 +10,11 @@ This challenge offers the ideal system for me accomplish my goal. I will documen
 
 ## My 100 Days of Code Challenge Daily Log
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> tutorial
 ### Day 1 - Python Basics
 
 Today I covered the following:
@@ -40,3 +43,17 @@ Today I covered the following:
 - Negative Indexing in Strings
 - Slicing
 - Slicing with Negative Numbers
+
+---
+
+### Day 3 - Python Basics
+
+Today I covered the following:
+
+- Using a Step in a Slice
+- Slicing Backwards
+- String Operators
+- String Replacement Fields
+- String Formatting
+- f-Strings
+- Python 2 String Interpolation
