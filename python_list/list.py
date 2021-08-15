@@ -69,7 +69,7 @@ print(colors[2])
 
 # Python will raise an IndexError error, if you use an index that exceeds the
 # number of items in your list.
-print(colors[10])       # IndexError: list index out of range
+# print(colors[10])       # IndexError: list index out of range
 
 # NEGATIVE LIST INDEXING
 # You can access a list by negative indexing as well. Negative indexes count
@@ -82,3 +82,25 @@ print(colors[-1])       # black
 
 print(colors[-2])       # yellow
 
+# ACCESS NESTED LIST ITEMS
+# You can access individual items in a nested list using multiple indexes. The
+# first index determines which list to use, and the second indicates the value
+# within that list.
+
+nested_list = [
+    'a',
+    'b',
+    [
+        'cc',
+        'dd',
+        [
+            'eee',
+            'fff'
+        ]
+    ],
+    'g',
+    'h'
+]
+
+print(nested_list[2][2])        # ['ccc', 'ddd']
+print(nested_list[2][2][0])     # eee
