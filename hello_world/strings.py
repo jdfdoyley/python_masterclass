@@ -75,3 +75,18 @@ print(string.swapcase())
 
 # Title Case
 print(string.title())
+
+# Check if Substring Contains in a String
+# To check if a specific text is present in a string, use the in operator. The
+# in is a boolean operator, which takes two strings and returns True if the
+# first appears as a substring in the second
+
+string = "The big red fox jumped over the lazy dog."
+print("fox" in string)          # True
+print("Dog" in string)          # False: case sensitive
+
+# To search for a specific text within a string, use find() method. It returns
+# the lowest index in the string where substring is found.
+string = "Stay Hungry, Stay Foolish"
+print(string.find("Foolish"))
+print(string[string.find(("Foolish"))])
