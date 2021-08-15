@@ -104,3 +104,16 @@ nested_list = [
 
 print(nested_list[2][2])        # ['ccc', 'ddd']
 print(nested_list[2][2][0])     # eee
+
+# SLICING A LIST
+# A segment of a list is called a slice and you can extract one by using a
+# slice operator. A slice of a list is also a list.
+
+# The slice operator[n:m] returns the part of the list from the "n-th" item to
+# the "m-th" item, including the first but excluding the last.
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f']
+
+print(letters[2:5])     # ['c', 'd', 'e']
+print(letters[0:2])     # ['a', 'b']
+print(letters[3:-1])    # ['d', 'e']
