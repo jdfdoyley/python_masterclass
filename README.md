@@ -1,6 +1,6 @@
 # Python Masterclass
 
-[Twitter]() | [LinkedIn](https://www.linkedin.com/in/jdfdoyley/)
+[Twitter](https://twitter.com/Jason_DOyley) | [LinkedIn](https://www.linkedin.com/in/jdfdoyley/)
 
 This repo is based on the [Learn Python Programming Masterclass](https://www.udemy.com/course/python-the-complete-python-developer-course/), taught by Tim Buchalka on Udemy, I currently take.
 
