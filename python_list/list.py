@@ -31,3 +31,23 @@ print(str_list)
 # Converting a tuple to a list
 tup_list = list((1, 2, 3, 4, 5))
 print(tup_list)
+
+# NESTED LIST
+# A list can contain sublists, which in turn can contain sublists themselves,
+# and so on. This is known as nested list.
+
+# You can use the to arrange data into hierarchical structures.
+nested_list = [
+    'a',
+    [
+        'bb',
+        [
+            'ccc',
+            'ddd'
+        ],
+        'ee',
+        'ff'
+    ],
+    'g',
+    'h'
+]
