@@ -90,3 +90,11 @@ print("Dog" in string)          # False: case sensitive
 string = "Stay Hungry, Stay Foolish"
 print(string.find("Foolish"))
 print(string[string.find(("Foolish"))])
+
+# Iterate Through a String
+# To iterate over the characters of a string, use a simple for loop
+
+# Print each character in a string
+string = "James Brown"
+for letter in string:
+    print(letter, end=' ')
