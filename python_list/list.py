@@ -70,3 +70,15 @@ print(colors[2])
 # Python will raise an IndexError error, if you use an index that exceeds the
 # number of items in your list.
 print(colors[10])       # IndexError: list index out of range
+
+# NEGATIVE LIST INDEXING
+# You can access a list by negative indexing as well. Negative indexes count
+# backward from the end of the list. So L[-1] refers to the last item, L[-2] is
+# the second-last, and so on.
+
+colors = ['red', 'green', 'blue', 'yellow', 'black']
+
+print(colors[-1])       # black
+
+print(colors[-2])       # yellow
+
