@@ -37,3 +37,20 @@ string = "Hello, World!"
 str_replace = string.replace('World', 'Universe')
 
 print(str_replace)
+
+# Split and Join a String
+# Use split() method to chop up a string into a list of substrings, around a
+# specified delimiter.
+
+# Split the string on comma
+string = "red,green,blue,yellow"
+str_split = string.split(',')
+print(str_split)
+
+# Use join() method to join the list back into a string, with a specified
+# delimiter in between.
+
+#  Join the list of substrings
+str_list = ["red", "green", "blue", "yellow"]
+string = ",".join(str_list)
+print(string)
