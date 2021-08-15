@@ -54,3 +54,24 @@ print(str_split)
 str_list = ["red", "green", "blue", "yellow"]
 string = ",".join(str_list)
 print(string)
+
+# String Case Conversion
+# Python provides five methods to perform case conversion on the target string
+# viz lower(), upper(), capitalize(), swapcase(), and title().
+
+string = "This is a String of Text."
+
+# lower case
+print(string.lower())
+
+# UPPER CASE
+print(string.upper())
+
+# Capitalize case
+print(string.capitalize())
+
+# sWAP cASE
+print(string.swapcase())
+
+# Title Case
+print(string.title())
