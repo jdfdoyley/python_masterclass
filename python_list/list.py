@@ -1,6 +1,6 @@
 """This file is responsible for demonstrating the use of List."""
 
-# Create a List
+# CREATE A LIST
 # There are several ways to create a new list; the simplest is to enclose the
 # values in square brackets []
 
@@ -20,3 +20,14 @@ mixed_list = [1, 'abc', 1.23, (3+4j), True]
 
 # An empty list
 empty_list = []
+
+# THIS list() CONSTRUCTOR
+# You can convert other data types to lists using Python's list() constructor.
+
+# Convert a string to a list
+str_list = list('abcdef')
+print(str_list)
+
+# Converting a tuple to a list
+tup_list = list((1, 2, 3, 4, 5))
+print(tup_list)
