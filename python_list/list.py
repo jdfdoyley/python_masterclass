@@ -167,3 +167,27 @@ print(languages)
 languages = ['Spanish', 'English']
 languages += ['Chinese', 'French']
 print(languages)
+
+
+# REMOVE ITEMS FROM A LIST
+# There are several ways to remove items from a list.
+
+# Remove an Item from a List
+# If you know the index of the item you want, you can use pop() method. It
+# modifies the list and returns the removed item.
+
+# If no index is specified, pop() removes and returns the last item in the list.
+languages = ['Chinese', 'English', 'French', 'Spanish']
+print(languages)
+
+deleted_lang = languages.pop(1)
+
+print(f"New Language List: {languages}")
+print(f"Deleted Language: {deleted_lang}")
+
+# If you don't need the removed value/item, use the del statement
+languages = ['Chinese', 'English', 'French', 'Spanish']
+print(f"Old Language List: {languages}")
+
+del languages[1]
+print(f"New Language List: {languages}")
