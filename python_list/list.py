@@ -128,3 +128,20 @@ print(ants)             # ['tapinoma', 'fire', 'pharaoh']
 
 ants[-1] = 'carpenter'
 print(ants)             # ['tapinoma', 'fire', 'carpenter']
+
+
+# ADD ITEMS TO A LIST
+# To add new values to a list, use append() method. This method adds items only
+# to the end of the list.
+languages = ['Spanish', 'English', 'French']
+print(languages)
+
+languages.append('Chinese')
+print(languages)
+
+# If you want to insert an item at a specific position in a list, use insert()
+# method. Note that all of the values in the list after the inserted value will
+# be moved down one index.
+languages = ['Spanish', 'English', 'French']
+languages.insert(1, 'Chinese')
+print(languages)
