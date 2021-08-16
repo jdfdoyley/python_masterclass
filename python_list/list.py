@@ -208,3 +208,11 @@ print(f"Old Language List: {languages}")
 
 languages.remove('English')
 print(f"New Language List: {languages}")
+
+# Remove Multiple Items
+# To remove more than one items, use the del keyword with a slice index.
+languages = ['Chinese', 'English', 'French', 'Spanish', "Korean", "German"]
+print(f"Old Language List: {languages}")
+
+del languages[1:4]
+print(f"New Language List: {languages}")
