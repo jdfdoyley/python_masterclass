@@ -191,3 +191,20 @@ print(f"Old Language List: {languages}")
 
 del languages[1]
 print(f"New Language List: {languages}")
+
+# Remove an Item by Value
+# If you're not sure where the item is in the list, use remove() method to
+# delete it by value.
+languages = ['Chinese', 'English', 'French', 'Spanish']
+print(f"Old Language List: {languages}")
+languages.remove('English')
+
+print(f"New Language List: {languages}")
+
+# Keep in mind that if more than one instance of the given item is present in
+# the list, then this method removes only the first instance.
+languages = ['Chinese', 'English', 'French', 'Spanish', 'English']
+print(f"Old Language List: {languages}")
+
+languages.remove('English')
+print(f"New Language List: {languages}")
