@@ -32,6 +32,8 @@ print(str_list)
 tup_list = list((1, 2, 3, 4, 5))
 print(tup_list)
 
+print()
+
 # NESTED LIST
 # A list can contain sublists, which in turn can contain sublists themselves,
 # and so on. This is known as nested list.
@@ -51,6 +53,8 @@ nested_list = [
     'g',
     'h'
 ]
+
+print()
 
 # ACCESS LIST ITEMS BY INDEX
 # You can think of a list as a relationship between indexes and values.
@@ -82,6 +86,8 @@ print(colors[-1])       # black
 
 print(colors[-2])       # yellow
 
+print()
+
 # ACCESS NESTED LIST ITEMS
 # You can access individual items in a nested list using multiple indexes. The
 # first index determines which list to use, and the second indicates the value
@@ -105,6 +111,8 @@ nested_list = [
 print(nested_list[2][2])        # ['ccc', 'ddd']
 print(nested_list[2][2][0])     # eee
 
+print()
+
 # SLICING A LIST
 # A segment of a list is called a slice and you can extract one by using a
 # slice operator. A slice of a list is also a list.
@@ -118,6 +126,8 @@ print(letters[2:5])     # ['c', 'd', 'e']
 print(letters[0:2])     # ['a', 'b']
 print(letters[3:-1])    # ['d', 'e']
 
+print()
+
 # CHANGE ITEM VALUE
 # You can replace an existing element with a new value by assigning the new
 # value to the index.
@@ -129,6 +139,7 @@ print(ants)             # ['tapinoma', 'fire', 'pharaoh']
 ants[-1] = 'carpenter'
 print(ants)             # ['tapinoma', 'fire', 'carpenter']
 
+print()
 
 # ADD ITEMS TO A LIST
 # To add new values to a list, use append() method. This method adds items only
@@ -145,6 +156,8 @@ print(languages)
 languages = ['Spanish', 'English', 'French']
 languages.insert(1, 'Chinese')
 print(languages)
+
+print()
 
 # COMBINE LISTS
 # You can merge one list into another by using extend() method. It takes a list
@@ -168,6 +181,7 @@ languages = ['Spanish', 'English']
 languages += ['Chinese', 'French']
 print(languages)
 
+print()
 
 # REMOVE ITEMS FROM A LIST
 # There are several ways to remove items from a list.
@@ -192,6 +206,8 @@ print(f"Old Language List: {languages}")
 del languages[1]
 print(f"New Language List: {languages}")
 
+print()
+
 # Remove an Item by Value
 # If you're not sure where the item is in the list, use remove() method to
 # delete it by value.
@@ -201,6 +217,8 @@ languages.remove('English')
 
 print(f"New Language List: {languages}")
 
+print()
+
 # Keep in mind that if more than one instance of the given item is present in
 # the list, then this method removes only the first instance.
 languages = ['Chinese', 'English', 'French', 'Spanish', 'English']
@@ -208,6 +226,8 @@ print(f"Old Language List: {languages}")
 
 languages.remove('English')
 print(f"New Language List: {languages}")
+
+print()
 
 # Remove Multiple Items
 # To remove more than one items, use the del keyword with a slice index.
@@ -217,6 +237,7 @@ print(f"Old Language List: {languages}")
 del languages[1:4]
 print(f"New Language List: {languages}")
 
+print()
 
 # Remove all items
 # Use clear() method to remove all items from the list.
@@ -226,6 +247,8 @@ print(f"Old Language List: {languages}")
 languages.clear()
 print(f"New Language List: {languages}")
 
+print()
+
 # LIST REPLICATION
 # The replication operator * repeats a list a given number of times.
 languages = ['Spanish']
@@ -234,12 +257,15 @@ print(f"Old Language List: {languages}")
 languages *= 3
 print(f"New Language List: {languages}")
 
+print()
 
 # FIND LIST LENGTH
 # To find the number of items in a list, use len() method.
 languages = ['Chinese', 'English', 'French', 'Spanish']
 print(f"Languages: {languages}")
 print(f"List Length: {len(languages)}")
+
+print()
 
 # CHECK IF ITEM EXISTS IN A LIST
 # To determine whether a value is or isn't in a list, you can use in and not in
@@ -254,3 +280,41 @@ if 'English' in languages:
 languages = ['Chinese', 'English', 'French', 'Spanish']
 if 'Korean' not in languages:
     print(True)
+
+print()
+
+# ITERATE THROUGH A LIST
+# The most common way to iterate through a list is with a for loop.
+languages = ['chinese', 'english', 'french', 'spanish', "korean", "german"]
+for language in languages:
+    item_number = languages.index(language) + 1
+    print(f"{item_number}. {language.capitalize()}")
+
+print()
+
+for item_number, language in enumerate(languages, start=1):
+    print(f"{item_number}. {language.capitalize()}")
+
+print()
+
+
+# This works well if you only need to read the items of the list. But if you
+# want to update them, you need the indexes. A common way to do that is to
+# combine the range() and len() functions.
+
+# Loop through the list and double each item
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(f"Old List: {numbers}")
+for i in range(len(numbers)):
+    numbers[i] = numbers[i] * 2
+
+print(f"New List: {numbers}")
+
+# Loop through the list and double each item using enumerate()
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(f"Old List: {numbers}")
+for index, number in enumerate(numbers):
+    # numbers[index] = number * 2
+    numbers[index] *= 2
+
+print(f"New List: {numbers}")
