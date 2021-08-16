@@ -145,3 +145,25 @@ print(languages)
 languages = ['Spanish', 'English', 'French']
 languages.insert(1, 'Chinese')
 print(languages)
+
+# COMBINE LISTS
+# You can merge one list into another by using extend() method. It takes a list
+# as an argument and appends all of the elements.
+languages = ['Spanish', 'English']
+print(languages)
+
+languages.extend(['Chinese', 'French'])
+print(languages)
+
+# Alternatively, you can use the concatenation operator + or the augmented
+# assignment operator +=
+
+# Concatenation operator
+languages = ['Spanish', 'English']
+languages = languages + ['Chinese', 'French']
+print(languages)
+
+# Augmented assignment operator
+languages = ['Spanish', 'English']
+languages += ['Chinese', 'French']
+print(languages)
