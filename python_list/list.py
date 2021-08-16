@@ -225,3 +225,11 @@ print(f"Old Language List: {languages}")
 
 languages.clear()
 print(f"New Language List: {languages}")
+
+# LIST REPLICATION
+# The replication operator * repeats a list a given number of times.
+languages = ['Spanish']
+print(f"Old Language List: {languages}")
+
+languages *= 3
+print(f"New Language List: {languages}")
