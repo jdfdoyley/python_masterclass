@@ -2,9 +2,13 @@
 
 [Twitter](https://twitter.com/Jason_DOyley) | [LinkedIn](https://www.linkedin.com/in/jdfdoyley/)
 
-This repo is based on the [Learn Python Programming Masterclass](https://www.udemy.com/course/python-the-complete-python-developer-course/), taught by Tim Buchalka on Udemy, I currently take.
+This repo is based on the [Learn Python Programming Masterclass](https://www.udemy.com/course/python-the-complete-python-developer-course/), taught by Tim
+Buchalka on Udemy, in addition with [Learn by Example](https://www.learnbyexample.org/python/) website, resources I am
+currently using.
 
-My goal is to gain a thorough understanding of the Python programming language so I can then use it to solve real world problems. In an effort to stay motivated and consistent, I decided to use the [#100DaysOfCode](https://www.100daysofcode.com) challenge concept.
+My goal is to gain a thorough understanding of the Python programming language
+so I can then use it to solve real world problems. In an effort to stay
+motivated and consistent, I decided to use the [#100DaysOfCode](https://www.100daysofcode.com) challenge concept.
 
 This challenge offers the ideal system for me accomplish my goal. I will document my progress here as well. This too will also help me getting comfortable using Git and GitHub. Now it's time to get cracking; here I go...
 
@@ -25,7 +29,7 @@ Today I covered the following:
 
 ---
 
-### Day 2 - Python Basics
+### Day 2 - Python Basics (con't)
 
 Today I covered the following:
 
@@ -51,7 +55,7 @@ Today I covered the following:
 
 ---
 
-### Day 4 - Strings
+### Day 4 - Strings (con't)
 
 Today I covered the following:
 
