@@ -240,3 +240,17 @@ print(f"New Language List: {languages}")
 languages = ['Chinese', 'English', 'French', 'Spanish']
 print(f"Languages: {languages}")
 print(f"List Length: {len(languages)}")
+
+# CHECK IF ITEM EXISTS IN A LIST
+# To determine whether a value is or isn't in a list, you can use in and not in
+# operators with if statement.
+
+# Check for presence
+languages = ['Chinese', 'English', 'French', 'Spanish']
+if 'English' in languages:
+    print(True)
+
+# Check for absence
+languages = ['Chinese', 'English', 'French', 'Spanish']
+if 'Korean' not in languages:
+    print(True)
