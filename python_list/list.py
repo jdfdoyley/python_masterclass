@@ -233,3 +233,10 @@ print(f"Old Language List: {languages}")
 
 languages *= 3
 print(f"New Language List: {languages}")
+
+
+# FIND LIST LENGTH
+# To find the number of items in a list, use len() method.
+languages = ['Chinese', 'English', 'French', 'Spanish']
+print(f"Languages: {languages}")
+print(f"List Length: {len(languages)}")
