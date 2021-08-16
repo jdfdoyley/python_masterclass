@@ -216,3 +216,12 @@ print(f"Old Language List: {languages}")
 
 del languages[1:4]
 print(f"New Language List: {languages}")
+
+
+# Remove all items
+# Use clear() method to remove all items from the list.
+languages = ['Chinese', 'English', 'French', 'Spanish']
+print(f"Old Language List: {languages}")
+
+languages.clear()
+print(f"New Language List: {languages}")
