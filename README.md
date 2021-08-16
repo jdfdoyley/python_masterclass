@@ -65,7 +65,7 @@ Today I covered the following:
 
 ---
 
-### Day 5 - Strings
+### Day 5 - List
 
 Today I covered the following:
 
@@ -78,3 +78,22 @@ Today I covered the following:
 - Access Nested List Items
 - Slicing a List
 - Change Item Value
+
+---
+
+### Day 6 - List (con't)
+
+Today I covered the following:
+
+- Add items to a list
+- Combine Lists
+- Remove items from a list
+- List Replication
+- Find List Length
+- Check if item exists in a list
+- Iterate through a List
+- The enumerate method
+- The enumerate syntax
+- Basic example
+- Specify Different Start
+- Iterate Enumerate Object
