@@ -48,3 +48,20 @@ print(numbers[::-2])    # [9, 7, 5, 3, 1]
 print(numbers[-2::-2])  # [8, 6, 4, 2, 0]
 print(numbers[7:2:-1])  # [7, 6, 5, 4, 3]
 print(numbers[3:8:-1])  # []
+
+print()
+
+# SLICE AT BEGINNING & END
+# Omitting the start index starts the slice from the index 0. Meaning, L[:stop]
+# is equivalent to L[0:stop]
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers[:5])      # [0, 1, 2, 3, 4]
+
+# Whereas, omitting the stop index extends the slice to the end of the list.
+# Meaning, L[start:] is equivalent to L[start:len(L)]
+
+# Print the last 5 elements of the list
+print(numbers[5:])      # [5, 6, 7, 8, 9]
+
+index = round(len(numbers) / 2)
+print(numbers[index:])      # [5, 6, 7, 8, 9]
