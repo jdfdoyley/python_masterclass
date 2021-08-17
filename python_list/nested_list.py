@@ -41,3 +41,41 @@ print(f'Original list: {author}')
 
 author[2][1] = 'Tripwire'
 print(f'New list: {author}')
+
+print()
+
+# ADD ITEMS TO A NESTED LIST
+# To add new values to the end of the nested list, use append() method.
+author = ['Lee', 'Child', ['Killing Floor', 'Die Trying']]
+print(f'Original list: {author}')
+
+author[2].append('Tripwire')
+print(f'New list: {author}')
+
+print()
+
+# When you want to insert an item at a specific position in a nested list, use
+# insert() method.
+author = ['Lee', 'Child', ['Killing Floor', 'Tripwire']]
+print(f'Original list: {author}')
+
+author[2].insert(1, 'Die Trying')
+print(f'New list: {author}')
+
+print()
+
+# You can merge one list into another by using extend() method.
+author = ['Lee', 'Child', ['Killing Floor', 'Tripwire'], 66]
+genres = ['Crime fiction', 'mystery', 'thriller']
+others = ['The Snake Eater by the Numbers', 'Ten Keys',
+          'The Greatest Trick of All', 'Safe Enough', 'The .50 Solution']
+
+print(f'Original list: {author}')
+
+# Insert genres after the age object in the list
+author.append(genres)
+print(f'New list: {author}')
+
+# Extend the list to add some other books by Lee Child
+author[2].extend(others)
+print(f'Newer list: {author}')
