@@ -30,3 +30,14 @@ nested_list = ['a', 'b', ['cc', 'dd', ['eee', 'fff']], 'g', 'h']
 print(nested_list[-3])
 print(nested_list[-3][-1])
 print(nested_list[-3][-1][-2])
+
+print()
+
+# CHANGE NESTED LIST ITEM VALUE
+# You can change the value of a specific item in a nested list by referring to
+# its index number.
+author = ['Lee', 'Child', ['Killing Floor', 'No Middle Name', 'Die Trying']]
+print(f'Original list: {author}')
+
+author[2][1] = 'Tripwire'
+print(f'New list: {author}')
