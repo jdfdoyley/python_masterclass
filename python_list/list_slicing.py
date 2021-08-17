@@ -108,3 +108,19 @@ print(numbers)          # [0, -1, -2, 2, 4, 6, -3, 4, 5, 6, 0, 1, 2]
 
 del numbers[3:6]
 print(numbers)          # [0, -1, -2, -3, 4, 5, 6, 0, 1, 2]
+
+print()
+
+# CLONE OR COPY A LIST
+# When you execute new_List = old_List, you don’t actually have two lists. The
+# assignment just copies the reference to the list, not the actual list. So,
+# both new_List and old_List refer to the same list after the assignment.
+
+# You can use slicing operator to actually copy the list (also known as a
+# shallow copy).
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+numbers_2 = numbers[:]
+print(numbers)
+print(numbers_2)
+
+print(numbers_2 is numbers)     # False
