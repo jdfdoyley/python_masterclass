@@ -45,7 +45,7 @@ Today I covered the following:
 
 ---
 
-### Day 3 - Strings
+### Day 3 - Python Strings
 
 Today I covered the following:
 
@@ -55,7 +55,7 @@ Today I covered the following:
 
 ---
 
-### Day 4 - Strings (con't)
+### Day 4 - Python Strings (con't)
 
 Today I covered the following:
 
@@ -69,7 +69,7 @@ Today I covered the following:
 
 ---
 
-### Day 5 - List
+### Day 5 - Python List
 
 Today I covered the following:
 
@@ -85,7 +85,7 @@ Today I covered the following:
 
 ---
 
-### Day 6 - List (con't)
+### Day 6 - Python List (con't)
 
 Today I covered the following:
 
@@ -101,3 +101,34 @@ Today I covered the following:
 - Basic example
 - Specify Different Start
 - Iterate Enumerate Object
+
+---
+
+### Day 7 - Python Nested List & Slicing List
+
+Today I covered the following:
+
+Python Nested List
+
+- What is Python Nested List?
+- Create a Nested List
+- Access Nested List Items by Index
+- Negative List Indexing In a Nested List
+- Change Nested List Item Value
+- Add items to a Nested list
+- Remove items from a Nested List
+- Find Nested List Length
+- Iterate through a Nested List
+
+Python List Slicing
+
+- Slicing a List
+- Slice with Negative Indices
+- Slice with Positive Negative Indices
+- Specify Step of the Slicing
+- Slice at Beginning End
+- Reverse a List
+- Modify Multiple List Values
+- Insert Multiple List Items
+- Delete Multiple List Items
+- Clone or Copy a List

@@ -73,3 +73,23 @@ print()
 # a step as -1.
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(numbers[::-1])        # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+print()
+
+# MODIFY MULTIPLE LIST VALUES
+# You can modify multiple list items at once with slice assignment. This
+# assignment replaces the specified slice of a list with the items of assigned
+# iterable.
+
+# Modify multiple list items
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers)
+
+numbers[:3] = [9, 8, 7]
+print(numbers)
+
+numbers[7:] = [0, 1, 2]
+print(numbers)          # [9, 8, 7, 3, 4, 5, 6, 0, 1, 2]
+
+numbers[3:4] = [0, -1, -2, -3]
+print(numbers)          # [9, 8, 7, 0, -1, -2, -3, 4, 5, 6, 0, 1, 2]
