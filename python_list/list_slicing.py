@@ -65,3 +65,11 @@ print(numbers[5:])      # [5, 6, 7, 8, 9]
 
 index = round(len(numbers) / 2)
 print(numbers[index:])      # [5, 6, 7, 8, 9]
+
+print()
+
+# REVERSE A LIST
+# You can reverse a list by omitting both start and stop indices and specifying
+# a step as -1.
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers[::-1])        # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
