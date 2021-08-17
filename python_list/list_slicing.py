@@ -96,4 +96,15 @@ print(numbers)          # [9, 8, 7, 0, -1, -2, -3, 4, 5, 6, 0, 1, 2]
 
 middle = round(len(numbers) / 2)
 numbers[middle:middle] = [2, 4, 6]
-print(numbers)
+print(numbers)          # [9, 8, 7, 0, -1, -2, 2, 4, 6, -3, 4, 5, 6, 0, 1, 2]
+
+print()
+
+# DELETE MULTIPLE LIST ITEMS
+# You can delete multiple items out of the middle of a list by assigning the
+# appropriate slice to an empty list.
+numbers[:3] = []
+print(numbers)          # [0, -1, -2, 2, 4, 6, -3, 4, 5, 6, 0, 1, 2]
+
+del numbers[3:6]
+print(numbers)          # [0, -1, -2, -3, 4, 5, 6, 0, 1, 2]
