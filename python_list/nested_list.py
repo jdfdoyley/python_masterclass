@@ -127,3 +127,23 @@ print()
 author[2].extend(others)
 print(f'New list: {author}')
 print(f"Length of New Nested List: {len(author[2])}")
+
+print()
+
+# ITERATE THROUGH A NESTED LIST
+# To iterate over the items of a nested list, use simple for loop.
+authors = [
+    ['Lee', 'Child'],
+    ['Dan', 'Brown'],
+    ['Mel', 'Robbins'],
+    ['Margaret', 'Atwood'],
+    ['Stephen', 'Covey'],
+    ['James', 'Clear'],
+]
+
+for index, author in enumerate(authors, start=1):
+    print(f"{index}.", end=' ')
+    for name in author:
+        print(name, end=' ')
+
+    print()
