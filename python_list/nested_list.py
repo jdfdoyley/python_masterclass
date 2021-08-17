@@ -79,3 +79,32 @@ print(f'New list: {author}')
 # Extend the list to add some other books by Lee Child
 author[2].extend(others)
 print(f'Newer list: {author}')
+
+print()
+
+# REMOVE ITEMS FROM A NESTED LIST
+# If you know the index of the item you want, you can use pop() method. It
+# modifies the list and returns the removed item.
+author = ['Lee', 'Child', ['Killing Floor', 'No Middle Name', 'Die Trying']]
+print(f'Original list: {author}')
+
+deleted_item = author[2].pop(1)
+print(f'New list: {author}')
+print(f'Deleted Item: {deleted_item}')
+print()
+
+# If you don’t need the removed value, use the del statement.
+author = ['Lee', 'Child', ['Killing Floor', 'No Middle Name', 'Die Trying']]
+print(f'Original list: {author}')
+
+del author[2][1]
+print(f'New list: {author}')
+print()
+
+# If you’re not sure where the item is in the list, use remove() method to
+# delete it by value.
+author = ['Lee', 'Child', ['Killing Floor', 'No Middle Name', 'Die Trying']]
+print(f'Original list: {author}')
+
+author[2].remove('No Middle Name')
+print(f'New list: {author}')
