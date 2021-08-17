@@ -108,3 +108,22 @@ print(f'Original list: {author}')
 
 author[2].remove('No Middle Name')
 print(f'New list: {author}')
+
+print()
+
+# FIND THE NESTED LIST LENGTH
+# You can use the built-in len() function to find how many items a nested
+# sublist has.
+author = ['Lee', 'Child', ['Killing Floor', 'Tripwire'], 66]
+others = ['The Snake Eater by the Numbers', 'Ten Keys',
+          'The Greatest Trick of All', 'Safe Enough', 'The .50 Solution']
+
+# Find the lenth of the original nested list
+print(f'Original list: {author}')
+print(f"Length of Original Nested List: {len(author[2])}")
+
+print()
+
+author[2].extend(others)
+print(f'New list: {author}')
+print(f"Length of New Nested List: {len(author[2])}")
