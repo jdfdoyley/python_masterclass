@@ -28,3 +28,13 @@ print()
 # You can specify both positive and negative indices at the same time.
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(numbers[-7:7])    # [3, 4, 5, 6]
+
+print()
+
+# SPECIFY STEP OF THE SLICING
+# You can specify the step of the slicing using step parameter. The step
+# parameter is optional and by default 1.
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers[0::1])
+print(numbers[::2])     # [0, 2, 4, 6, 8]
+print(numbers[::3])     # [0, 3, 6, 9]
