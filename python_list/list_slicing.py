@@ -93,3 +93,7 @@ print(numbers)          # [9, 8, 7, 3, 4, 5, 6, 0, 1, 2]
 
 numbers[3:4] = [0, -1, -2, -3]
 print(numbers)          # [9, 8, 7, 0, -1, -2, -3, 4, 5, 6, 0, 1, 2]
+
+middle = round(len(numbers) / 2)
+numbers[middle:middle] = [2, 4, 6]
+print(numbers)
