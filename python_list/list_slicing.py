@@ -38,3 +38,13 @@ numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(numbers[0::1])
 print(numbers[::2])     # [0, 2, 4, 6, 8]
 print(numbers[::3])     # [0, 3, 6, 9]
+
+print()
+
+# Negative Step Size
+# You can also specify a negative step size.
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(numbers[::-2])    # [9, 7, 5, 3, 1]
+print(numbers[-2::-2])  # [8, 6, 4, 2, 0]
+print(numbers[7:2:-1])  # [7, 6, 5, 4, 3]
+print(numbers[3:8:-1])  # []
