@@ -98,3 +98,24 @@ elif choice == 4:
     print('choice 4')
 else:
     print('default case')
+
+print()
+
+# MULTIPLE CONDITIONS
+# To join two or more conditions into a single if statement, use logical
+# operators viz. and, or and not.
+
+# and expression is True, if all the conditions are true.
+x, y, z = 7, 4, 2
+if x > y and x > z:
+    print('x is greater')
+
+# or expression is True, if at least one of the conditions is True.
+x, y, z = 7, 4, 9
+if x > y or x > z:
+    print('x is greater than y or z')
+
+# not expression is True, if the condition is false.
+x, y = 7, 5
+if not x < y:
+    print('x is greater')
