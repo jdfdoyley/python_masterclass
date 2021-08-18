@@ -148,3 +148,24 @@ print('x is greater') if x > y else print('y is greater')
 x, y = 7, 5
 greater = 'x is greater' if x > y else 'y is greater'
 print(greater)
+
+print()
+
+# CHECK IF ITEM PRESENT IN A SEQUENCE
+# The in operator is used to check if a value is present in a sequence (list,
+# tuple, string, etc.)
+
+# list
+L = ['red', 'green', 'blue']
+if 'red' in L:
+    print('Yes')
+
+# tuple
+T = ('red', 'green', 'blue')
+if 'red' in L:
+    print('Yes')
+
+# string
+S = 'Hello, World!'
+if 'Hello' in S:
+    print('Yes')
