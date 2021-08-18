@@ -135,3 +135,16 @@ x, y = 7, 5
 # Short Hand If - multiple statements
 x, y = 7, 5
 # if x > y: print('x is greater'); print('y is smaller'); print('x and y are not equal')
+
+print()
+
+# CONDITIONAL EXPRESSIONS (TERNARY OPERATOR)
+# Conditional expression (sometimes referred to as ‘ternary operator’) allows
+# us to select one of two statements depending on the specified condition.
+x, y = 7, 5
+print('x is greater') if x > y else print('y is greater')
+
+# You can also use it to select variable assignment.
+x, y = 7, 5
+greater = 'x is greater' if x > y else 'y is greater'
+print(greater)
