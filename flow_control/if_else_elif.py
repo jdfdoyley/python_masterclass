@@ -119,3 +119,19 @@ if x > y or x > z:
 x, y = 7, 5
 if not x < y:
     print('x is greater')
+
+print()
+
+# ONE LINE IF STATEMENT
+# Python allows us to write an entire if statement on one line.
+
+# Short Hand If - single statement
+x, y = 7, 5
+# if x > y: print('x is greater')
+
+# You can even keep several lines of code on just one line, simply by
+# separating them with a semicolon ; .
+
+# Short Hand If - multiple statements
+x, y = 7, 5
+# if x > y: print('x is greater'); print('y is smaller'); print('x and y are not equal')
