@@ -14,9 +14,36 @@ This challenge offers the ideal system for me accomplish my goal. I will documen
 
 ## My 100 Days of Code Challenge Daily Log
 
-### Day 1 - Python Basics
+### Day 1 of #100DaysOfCode
 
-Today I covered the following:
+Planning
+
+- Decide what language I will learn
+- Decide whether to start with Flask->Statics Sites (HTML + CSS)->Python, or
+- Python->SQL->Flask->Dynamic Sites (HTML + CSS + JS)
+- Find resources to use on this challenge
+- Create a learning plan based on research
+- Decide what will be my rules and guidelines for studying and practicing
+
+---
+
+### Day 2 of #100DaysOfCode
+
+Tools & Technologies
+
+- Set up workstation and area; clutter free zone
+- Decide when is the optimal time for studying and practice
+- Choose editor - VSCode
+- Configure VSCode for Python programming and Debugging
+- Gather necessary stationaries that will be needed
+- Decide on music choice for studying
+- Cover a crash course on Git + GitHub to help with documentation
+
+---
+
+### Day 3 of #100DaysOfCode
+
+Python Basics
 
 - First Python program
 - Displaying outputs with the built-in print method
@@ -29,9 +56,9 @@ Today I covered the following:
 
 ---
 
-### Day 2 - Python Basics (con't)
+### Day 4 of #100DaysOfCode
 
-Today I covered the following:
+Python Basics (con't)
 
 - Numeric Data Types
 - Numeric Operators
@@ -45,9 +72,9 @@ Today I covered the following:
 
 ---
 
-### Day 3 - Python Strings
+### Day 5 of #100DaysOfCode
 
-Today I covered the following:
+Python Strings
 
 - Using a Step in a Slice
 - Slicing Backwards
@@ -55,9 +82,9 @@ Today I covered the following:
 
 ---
 
-### Day 4 - Python Strings (con't)
+### Day 6 of #100DaysOfCode
 
-Today I covered the following:
+Python Strings (con't)
 
 - Find String Length
 - Replace text within a string
@@ -69,9 +96,9 @@ Today I covered the following:
 
 ---
 
-### Day 5 - Python List
+### Day 7  of #100DaysOfCode
 
-Today I covered the following:
+Python List
 
 - What is Python List?
 - Create a List
@@ -85,9 +112,9 @@ Today I covered the following:
 
 ---
 
-### Day 6 - Python List (con't)
+### Day 8  of #100DaysOfCode
 
-Today I covered the following:
+Python List (con't)
 
 - Add items to a list
 - Combine Lists
@@ -104,9 +131,7 @@ Today I covered the following:
 
 ---
 
-### Day 7 - Python Nested List & Slicing List
-
-Today I covered the following:
+### Day 9 of #100DaysOfCode
 
 Python Nested List
 
@@ -132,3 +157,20 @@ Python List Slicing
 - Insert Multiple List Items
 - Delete Multiple List Items
 - Clone or Copy a List
+
+---
+
+### Day 10 of #100DaysOfCode
+
+Python If...Else...Elif
+
+- The if Statement
+- Significance of Indentation
+- Nested if Statement
+- The else Statement
+- The elif (else if) Statement
+- Substitute for Switch Case
+- Multiple Conditions
+- One Line if Statement
+- Conditional Expressions (ternary operator)
+- Check If Item Present in a Sequence
