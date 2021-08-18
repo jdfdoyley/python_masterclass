@@ -56,3 +56,14 @@ if x > y:
     print('x is greater than y')
     if x > z:
         print('x is greater than y and z.')
+
+print()
+
+# THE ELSE STATEMENT
+# Use else statement to execute a block of Python code, if the condition is
+# false.
+x, y = 7, 5
+if x < y:
+    print('y is greater')
+else:
+    print('x is greater')
