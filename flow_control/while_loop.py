@@ -1,4 +1,5 @@
 """In this file, I will demonstrate the use of Python while Loops."""
+# pylint: disable=C0103
 
 # PYTHON WHILE LOOP
 # A while loop is used when you want to perform a task indefinitely, until a
@@ -78,3 +79,45 @@ while x:
     if x % 2 != 0:
         continue
     print(x)
+
+print()
+
+# ELSE IN WHILE LOOP
+# Python allows an optional else clause at the end of a loop. The else clause
+# will be executed when the loop terminates normally (the condition becomes
+# false).
+
+# pylint: disable=W0120
+x = 6
+while x:
+    print(x)
+    x -= 1
+else:
+    print("Done!")
+
+print("After the else block")
+print()
+
+# The else clause will still be executed if the condition is false at the start.
+x = 0
+while x:
+    print(x)
+    x -= 1
+else:
+    print('Done!')
+
+print("After the else block")
+print()
+
+# If the loop terminates prematurely with break, the else clause won’t be
+# executed.
+x = 6
+while x:
+    print(x)
+    x -= 1
+    if x == 3:
+        break
+else:
+    print('Done!')
+
+print("After the else block")
