@@ -50,3 +50,17 @@ x = 0
 while x:
     print(x)
     x -= 1
+
+print()
+
+# BREAK IN WHILE LOOP
+# Python break statement is used to exit the loop immediately. It simply jumps
+# out of the loop altogether, and the program continues after the loop.
+
+# Exit when x becomes 3
+x = 6
+while x:
+    print(x)
+    x -= 1
+    if x == 3:
+        break
