@@ -192,12 +192,3 @@ Python For Loop
 
 - Syntax
 - Basic Examples
-- Break in for Loop
-- Continue in for Loop
-- Else in for Loop
-- range() function in for Loop
-- Nested for Loop
-- Access Index in for Loop
-- Unpacking in a for Loop
-- Modify List While Iterating
-- Looping Through Multiple Lists
