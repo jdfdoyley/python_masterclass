@@ -121,3 +121,25 @@ else:
     print('Done!')
 
 print("After the else block")
+
+# pylint: enable=W0120
+
+print()
+
+# INFINITE LOOP (WHILE TRUE)
+# The condition must eventually become false. Otherwise, the loop will execute
+# forever, creating an infinite/endless loop.
+
+# Infinite loop with while statement
+# while True:
+#     print('Press Ctrl-C or control-C to stop me!')
+
+# You can safely implement an infinite loop in your program using a break
+# statement.
+
+# Loop runs until the user enters 'stop'
+while True:
+    name = input('Enter name: ')
+    if name.casefold() == 'stop':
+        break
+    print('Hello', name.title())
