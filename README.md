@@ -174,3 +174,30 @@ Python If...Else...Elif
 - One Line if Statement
 - Conditional Expressions (ternary operator)
 - Check If Item Present in a Sequence
+
+---
+
+### Day 11 of #100DaysOfCode
+
+Python While Loop
+
+- Syntax
+- Basic Example
+- Break in while Loop
+- Continue in while Loop
+- Else in While Loop
+- Infinite Loop (while True)
+
+Python For Loop
+
+- Syntax
+- Basic Examples
+- Break in for Loop
+- Continue in for Loop
+- Else in for Loop
+- range() function in for Loop
+- Nested for Loop
+- Access Index in for Loop
+- Unpacking in a for Loop
+- Modify List While Iterating
+- Looping Through Multiple Lists
