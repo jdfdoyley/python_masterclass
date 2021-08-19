@@ -64,3 +64,17 @@ while x:
     x -= 1
     if x == 3:
         break
+
+print()
+
+# CONTINUE IN WHILE LOOP
+# The continue statement skips the current iteration of a loop and continues
+# with the next iteration.
+
+# Skip odd numbers
+x = 6
+while x:
+    x -= 1
+    if x % 2 != 0:
+        continue
+    print(x)
