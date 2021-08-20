@@ -189,3 +189,22 @@ for x, y in dict_list.items():
     print(x, y)
 
 print()
+
+# MODIFY A LIST WHILE ITERATING
+# Don't alter mutable objects while looping on them. It may create a infinite
+# loop.
+
+# infinite loop
+# colors = ['red', 'green', 'blue']
+# for x in colors:
+#     if x == 'red':
+#         colors.insert(0, 'orange')
+#         print(colors)
+
+# It is recommended that you first make a copy. The slicing operator makes this
+# especially convenient.
+colors = ['red', 'green', 'blue', 'red']
+for x in colors[:]:
+    if x == 'red':
+        colors.insert(0, 'orange')
+print(colors)
