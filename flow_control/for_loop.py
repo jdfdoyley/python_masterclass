@@ -163,3 +163,29 @@ dogs = ['german shepherd', 'poodle',
         'pomeranian', 'bulldog', 'chihuahua', 'pug']
 for index, value in enumerate(dogs):
     print(index, value)
+
+print()
+
+# UNPACKING IN A FOR LOOP
+# Below for loop does a multiple assignment (unpack the current tuple) each
+# time through the loop.
+
+# Tuple unpacking
+tuple_list = [
+    (1, 2),
+    (3, 4),
+    (5, 6)
+]
+for (a, b) in tuple_list:
+    print(a, b)
+
+print()
+
+# Likewise, you can iterate through both keys and values in a dictionary.
+
+# Dictionary unpacking
+dict_list = {'name': 'Bob', 'age': 25}
+for x, y in dict_list.items():
+    print(x, y)
+
+print()
