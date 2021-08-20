@@ -146,3 +146,20 @@ numbers = [
 for items in numbers:
     for item in items:
         print(item)
+
+print()
+
+# ACCESS INDEX IN FOR LOOP
+# To iterate over the indices of a sequence, you can combine range() and len()
+# as follows:
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for index in range(len(dogs)):
+    print(index, dogs[index])
+
+print()
+
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for index, value in enumerate(dogs):
+    print(index, value)
