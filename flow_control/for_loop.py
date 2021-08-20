@@ -33,3 +33,19 @@ print()
 dog = 'pomeranian'
 for letter in dog:
     print(letter)
+
+print()
+
+# BREAK IN FOR LOOP
+# Python break statement is used to exit the loop immediately. It simply jumps
+# out of the loop altogether, and the program continues after the loop.
+
+# Break the loop at 'bulldog'
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for dog in dogs:
+    if dog == 'bulldog':
+        break
+    print(dog.title())
+
+print()
