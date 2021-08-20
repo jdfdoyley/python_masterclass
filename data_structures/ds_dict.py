@@ -166,3 +166,20 @@ print(emp.get('name').title())
 # When the key is absent
 print(emp.get('salary'))
 print()
+
+# ADD OR UPDATE DICTIONARY ITEMS
+# Adding or updating dictionary items is easy. Just refer to the item by its
+# key and assign a value. If the key is already present in the dictionary, its
+# value is replaced by the new one.
+emp = {
+    'name': 'jason',
+    'age': 31,
+    'job': 'front office manager',
+    'email': 'jason@email.com'
+}
+emp['age'] = 28
+print(emp)
+
+# If the key is new, it is added to the dictionary with its value
+emp['city'] = 'new york'
+print(emp)
