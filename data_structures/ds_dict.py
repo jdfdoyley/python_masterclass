@@ -56,3 +56,28 @@ emp = dict(
 
 print(emp)
 print()
+
+# OTHER WAYS TO CREATE DICTIONARIES
+# There are lots of other ways to create a dictionary.
+
+# You can use dict() function along with the zip() function, to combine
+# separate list of keys and values obtained dynamically at runtime.
+
+# Create a dictionary with list of zipped keys/values
+keys = ['first', 'last', 'age', 'position']
+values = ['jason', 'doyley', 31, 'frontend dev']
+
+emp = dict(zip(keys, values))
+print(emp)
+print()
+
+# You'll often want to create a dictionary with default values for each key.
+# The fromkeys() method offers a way to do this.
+
+# Initialize dictionary with default value '0' for each key
+keys = ['first', 'last', 'age', 'position']
+defaultValue = 0
+
+emp = dict.fromkeys(keys, defaultValue)
+print(emp)
+print()
