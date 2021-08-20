@@ -81,3 +81,51 @@ defaultValue = 0
 emp = dict.fromkeys(keys, defaultValue)
 print(emp)
 print()
+
+# IMPORTANT PROPERTIES OF A DICTIONARY
+
+# Keys must be unique:
+# A key can appear in a dictionary only once.
+
+# Even if you specify a key more than once during the creation of a dictionary,
+# the last value for that key becomes the associated value.
+# emp = {
+#     'name': 'Jason',
+#     'age': 31,
+#     'name': 'Bob'
+# }
+# print(emp)      # {'name': 'Bob', 'age': 31}
+# print()
+
+# Key must be immutable type:
+# You can use any object of immutable type as dictionary keys - such as
+# numbers, strings, booleans or tuples.
+ds_dict = {(2, 2): 25,
+           True: 'a',
+           'name': 'Bob'}
+
+print(ds_dict)
+print()
+
+# An exception is raised when mutable object is used as a key
+# ds_dict = {[2, 2]: 25,
+#            'name': 'Bob'}
+
+# print(ds_dict)  # TypeError: unhashable type: 'list'
+# print()
+
+# Value can be of any type
+# There are no restrictions on dictionary values. A dictionary value can be any
+# type of object and can appear in a dictionary multiple times.
+
+# values of different datatypes
+ds_dict1 = {'a': [1, 2, 3],
+            'b': [1, 2, 3]}
+print(ds_dict1)
+print()
+
+ds_dict2 = {'a': [1, 2],
+            'b': [1, 2],
+            'c': [1, 2]}
+print(ds_dict2)
+print()
