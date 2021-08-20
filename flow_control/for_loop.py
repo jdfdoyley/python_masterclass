@@ -49,3 +49,13 @@ for dog in dogs:
     print(dog.title())
 
 print()
+
+# CONTINUE IN FOR LOOP
+# The continue statem skips the current iteration of a loop and continues with
+# the next iteration.
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for dog in dogs:
+    if dog == 'bulldog':
+        continue
+    print(dog.title())
