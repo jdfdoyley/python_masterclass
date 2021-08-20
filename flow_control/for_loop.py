@@ -208,3 +208,14 @@ for x in colors[:]:
     if x == 'red':
         colors.insert(0, 'orange')
 print(colors)
+
+print()
+
+# LOOPING THROUGH MULTIPLE LISTS
+# Using built-in zip() function you can loop through multiple lists at once.
+
+# Loop through two lists at once
+name = ['Cameron', 'Jody', 'Sasha']
+age = [25, 26, 27]
+for x, y in zip(name, age):
+    print(x, y)
