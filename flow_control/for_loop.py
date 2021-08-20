@@ -133,3 +133,16 @@ for x in range(2, 7, 2):
     print(x)
 
 print()
+
+# NESTED FOR LOOP
+# A loop inside another loop is called a nested loop.
+
+# Flatten a nested list
+numbers = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+for items in numbers:
+    for item in items:
+        print(item)
