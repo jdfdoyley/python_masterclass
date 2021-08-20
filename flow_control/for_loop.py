@@ -18,3 +18,18 @@
 #     statement
 #     statement
 #     ...
+
+# BASIC EXAMPLES
+
+# Iterate through a list
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for dog in dogs:
+    print(dog.title())
+
+print()
+
+# Iterate through a string
+dog = 'pomeranian'
+for letter in dog:
+    print(letter)
