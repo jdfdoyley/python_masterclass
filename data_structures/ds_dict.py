@@ -183,3 +183,24 @@ print(emp)
 # If the key is new, it is added to the dictionary with its value
 emp['city'] = 'new york'
 print(emp)
+print()
+
+# MERGE TWO DICTIONARIES
+# Use the built-in update() method to merge the keys and values of one
+# dictionary into another. Note that this method blindly overwrites values of
+# the same key if there's a clash
+
+dict1 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+dict2 = {
+    'age': 26,
+    'city': 'new york',
+    'email': 'bob@web.com'
+}
+
+dict1.update(dict2)
+print(dict1)
