@@ -129,3 +129,40 @@ ds_dict2 = {'a': [1, 2],
             'c': [1, 2]}
 print(ds_dict2)
 print()
+
+# ACCESS DICTIONARY ITEMS
+# The order of key:value pairs is not always the same. In fact, if you write
+# the same example on another PC, you may get a different result. In general,
+# the order of items in a dictionary is unpredictable.
+
+# But this is not a problem because the items of a dictionary are not indexed
+# with integer indices. Instead, you use the keys to access the corresponding
+# values.
+
+# You can fetch a value from a dictionary by referring to its key in square
+# brackets [].
+emp = {
+    'name': 'jason',
+    'age': 31,
+    'job': 'front office manager',
+    'city': 'norfolk',
+    'email': 'jason@email.com'
+}
+
+print(emp['name'].title())
+print(emp['job'].title())
+print()
+
+# If refer to a key that is not in the dictionary, you'll get an exception
+# print(emp['salary'])        # KeyError: 'salary'
+
+# To avoid such exception, you can use the special dictionary get() method.
+# This method returns the value for key if key is in the dictionary, else None,
+# so that this method never raises a KeyError
+
+# When the key is present
+print(emp.get('name').title())
+
+# When the key is absent
+print(emp.get('salary'))
+print()
