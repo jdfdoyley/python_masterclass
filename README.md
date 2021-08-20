@@ -188,7 +188,31 @@ Python While Loop
 - Else in While Loop
 - Infinite Loop (while True)
 
+---
+
+### Day 12 of #100DaysOfCode
+
 Python For Loop
 
 - Syntax
 - Basic Examples
+- Break in for Loop
+- Continue in for Loop
+- Else in for Loop
+- range() function in for loop
+- Nested for Loop
+- Access Index in for Loop
+- Unpacking in a for loop
+- Modify List While Iterating
+- Looping Through Multiple Lists
+
+Python Dictionary
+
+- What is Python dictionary?
+- Create a Dictionary
+- The dict() Constructor
+- Other Ways to Create Dictionaries
+- Important Properties of a Dictionary
+- Access Dictionary Items
+- Add or Update Dictionary Items
+- Merge Two Dictionaries
