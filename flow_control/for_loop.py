@@ -59,3 +59,28 @@ for dog in dogs:
     if dog == 'bulldog':
         continue
     print(dog.title())
+
+print()
+
+# ELSE IN FOR LOOP
+# Python allows an optional else clause at the end of a for loop. The else
+# clause will be executed if the loop terminates naturally (through exhaustion)
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for dog in dogs:
+    print(dog.title())
+else:
+    print('All items have been printed!')
+
+# If the loop gets terminated prematurely with break, the else cluase will be
+# skipped.
+dogs = ['german shepherd', 'poodle',
+        'pomeranian', 'bulldog', 'chihuahua', 'pug']
+for dog in dogs:
+    if dog == 'chihuahua':
+        break
+    print(dog.title())
+else:
+    print('All items have been printed!')
+
+print('I appear after the else block!')
