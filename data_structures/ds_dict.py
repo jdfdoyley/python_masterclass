@@ -282,3 +282,42 @@ print(list(dict6.values()))     # ['bob', 28, 'dev']
 
 # get all pairs
 print(list(dict6.items()))
+print()
+
+# ITERATE THROUGH A DICTIONARY
+# If you use a dictionary in a for loop, it traverses the keys of the
+# dictionary by default.
+dict7 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+for item in dict7:
+    print(item)
+print()
+
+# To iterate over the values of a dictionary, index from key to value inside
+# the for loop.
+dict8 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+for item in dict8:
+    print(dict8[item])
+print()
+
+# You can also use items() to achieve the same thing as above
+dict9 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+for key, value in dict9.items():
+    print(
+        f"{key.title()}: {value if isinstance(value, int) is True else value.title()}"
+    )
+print()
