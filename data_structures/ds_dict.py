@@ -260,3 +260,25 @@ print(f"Original List: {dict5}")
 dict5.clear()
 print(f"New List: {dict5}")
 print()
+
+# GET ALL KEYS, VALUES AND Key:Value PAIRS
+# There are three dictionary methods that return all of the dictionary's keys,
+# values, and key-value pairs: keys(), values(), and items(). These methods are
+# useful in loops that need to step through dictionary entries one by one.
+
+# All the three methods return iterable object. If you want a true list from
+# these methods, wrap them in a list() function.
+dict6 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+# get all keys
+print(list(dict6.keys()))       # ['name', 'age', 'job']
+
+# get all values
+print(list(dict6.values()))     # ['bob', 28, 'dev']
+
+# get all pairs
+print(list(dict6.items()))
