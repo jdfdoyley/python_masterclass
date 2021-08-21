@@ -204,3 +204,33 @@ dict2 = {
 
 dict1.update(dict2)
 print(dict1)
+print()
+
+# REMOVE DICTIONARY ITEMS
+
+# Remove and Item by Key
+# If you know the key of the item you want, you can use pop() method. It
+# removes the key and returns its value.
+dict3 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+dict_del = dict3.pop('age')
+print(f"New List: {dict3}")
+print(f"Deleted Item: {dict_del}")
+print()
+
+# If you don't need the deleted item, use the del statement
+dict3 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+print(f"Original List: {dict3}")
+
+del dict3['age']
+print(f"New List: {dict3}")
+print()
+
