@@ -247,3 +247,16 @@ del_item = dict4.popitem()
 print(f"New List: {dict4}")
 print(f"Deleted Item: {del_item}")
 print()
+
+# Remove all Items
+# To delete all keys and values from a dictionary, use clear() method.
+dict5 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+print(f"Original List: {dict5}")
+
+dict5.clear()
+print(f"New List: {dict5}")
+print()
