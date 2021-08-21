@@ -234,3 +234,16 @@ del dict3['age']
 print(f"New List: {dict3}")
 print()
 
+# Remove Last Inserted Item
+# The popitem() method removes and returns the last inserted item.
+dict4 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+print(f"Original List: {dict4}")
+
+del_item = dict4.popitem()
+print(f"New List: {dict4}")
+print(f"Deleted Item: {del_item}")
+print()
