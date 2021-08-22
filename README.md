@@ -216,3 +216,22 @@ Python Dictionary
 - Access Dictionary Items
 - Add or Update Dictionary Items
 - Merge Two Dictionaries
+
+---
+
+### Day 13 of #100DaysOfCode
+
+Python Dictionary (con't)
+
+- Remove Dictionary Items
+  - Remove an Item by Key
+  - Remove Last Inserted Item
+  - Remove all Items
+- Get All Keys, Values and Key:Value Pairs
+- Iterate Through a Dictionary
+
+---
+
+### Day 14 of #100DaysOfCode
+
+Python Dictionary - Practice
