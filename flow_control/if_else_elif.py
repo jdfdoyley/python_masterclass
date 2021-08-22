@@ -1,5 +1,7 @@
 """In this file I will demonstrate the use of Python's if, elif and else statements."""
 
+# pylint: disable=C0103
+
 # PYTHON IF ELSE ELIF STATEMENT
 # You can use following conditional statements in your code to do this.
 
@@ -142,12 +144,11 @@ print()
 # Conditional expression (sometimes referred to as ‘ternary operator’) allows
 # us to select one of two statements depending on the specified condition.
 x, y = 7, 5
-print('x is greater') if x > y else print('y is greater')
+print('x is greater' if x > y else 'y is greater')
 
 # You can also use it to select variable assignment.
 x, y = 7, 5
-greater = 'x is greater' if x > y else 'y is greater'
-print(greater)
+print('x is greater' if x > y else 'y is greater')
 
 print()
 
