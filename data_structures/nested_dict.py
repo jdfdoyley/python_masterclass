@@ -119,3 +119,27 @@ print()
 employees7['emp2'] = {'name': 'Ari', 'job': 'Designer', 'salary': 104000.0}
 print(employees7)
 print()
+
+# MERGE TWO NESTED DICTIONARIES
+# Use the built-in update() method to merge the keys and values of one nested
+# dictionary into another. Note that this method blindly overwrites values of
+# the same key if there’s a clash.
+employees8 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+}
+
+employees9 = {
+    'emp2': {'name': 'Sam', 'job': 'Dev'},
+    'emp3': {'name': 'Ari', 'job': 'Designer'}
+}
+
+print("List 1:", employees8)
+print("List 2:", employees9)
+print()
+
+# Here the ’emp2′ record is updated while ’emp3′ is added to the dictionary.
+employees8.update(employees9)
+print("Merge List:", employees8)
+print("Number of Items:", len(employees8))
+print()
