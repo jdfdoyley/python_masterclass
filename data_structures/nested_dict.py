@@ -175,3 +175,22 @@ del employees11['emp2']
 
 print("Updated List:", employees11)
 print()
+
+
+# Remove Last Inserted Item
+# The popitem() method removes and returns the last inserted item as a tuple.
+
+employees12 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+print("Original:", employees12)
+
+employees12['emp4'] = {'name': 'Jay', 'job': 'CEO'}
+print("Updated:", employees12)
+
+deleted_item = employees12.popitem()
+print("Changed:", employees12)
+print("Deleted Item:", deleted_item)
