@@ -321,3 +321,28 @@ for key, value in dict9.items():
         f"{key.title()}: {value if isinstance(value, int) is True else value.title()}"
     )
 print()
+
+# CHECK IF A KEY OR VALUE EXISTS
+# If you want to know whether a key exists in a dictionary, use in and not in
+# operators with if statement.
+dict9 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+print('name' in dict9)
+print('salary' in dict9)
+print()
+
+
+# To check if a certain value exists in a dictionary, you can use method values
+# (), which returns the values as a list, and then use the in operator.
+dict10 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+print('dev' in dict10.values())         # True
+print('60000' in dict10.values())       # False
