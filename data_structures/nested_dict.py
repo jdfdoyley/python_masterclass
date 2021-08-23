@@ -54,3 +54,18 @@ default_values = {'name': '', 'job': ''}
 employees4 = dict.fromkeys(ids, default_values)
 print(employees4)
 print()
+
+# ACCESS NESTED DICTIONARY ITEMS
+# You can access individual items in a nested dictionary by specifying key in
+# multiple square brackets.
+employees5 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+# Get the name of the first employee
+print(employees5['emp1']['name'])           # Bob
+
+# Get the job of the third employee
+print(employees5['emp3']['job'])            # Dev
