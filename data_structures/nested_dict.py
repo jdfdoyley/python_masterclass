@@ -194,3 +194,18 @@ print("Updated:", employees12)
 deleted_item = employees12.popitem()
 print("Changed:", employees12)
 print("Deleted Item:", deleted_item)
+print()
+
+# ITERATE THROUGH A NESTED DICTIONARY
+# You can iterate over all values in a nested dictionary using nested for loop.
+employees13 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+for emp_num, emp_info in employees13.items():
+    print("\nEmployee ID:", emp_num)
+
+    for label, info in emp_info.items():
+        print(label.capitalize() + ": " + info.title())
