@@ -84,3 +84,18 @@ print(employees5['emp1'].get('name'))           # Bob
 
 # key absent
 print(employees5['emp2'].get('salary'))         # None
+print()
+
+# CHANGE NESTED DICTIONARY ITEMS
+# To change the value of a specific item in a nested dictionary, refer to its
+# key.
+employees6 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+employees6['emp1']['name'] = 'Pam'
+employees6['emp1']['job'] = 'Eng'
+
+print(employees6['emp1'])
+print()
