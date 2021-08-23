@@ -69,3 +69,7 @@ print(employees5['emp1']['name'])           # Bob
 
 # Get the job of the third employee
 print(employees5['emp3']['job'])            # Dev
+
+# If you refer to a key that is not in the nested dictionary, an exception is
+# raised.
+# print(employees5['emp1']['salary'])         # KeyError: 'salary'
