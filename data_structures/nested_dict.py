@@ -69,7 +69,18 @@ print(employees5['emp1']['name'])           # Bob
 
 # Get the job of the third employee
 print(employees5['emp3']['job'])            # Dev
+print()
 
 # If you refer to a key that is not in the nested dictionary, an exception is
 # raised.
-# print(employees5['emp1']['salary'])         # KeyError: 'salary'
+# print(employees5['emp1']['salary'])       # KeyError: 'salary'
+
+# To avoid such exception, you can use the special dictionary get() method.
+# This method returns the value for key if key is in the dictionary, else None,
+# so that this method never raises a KeyError.
+
+# key present
+print(employees5['emp1'].get('name'))           # Bob
+
+# key absent
+print(employees5['emp2'].get('salary'))         # None
