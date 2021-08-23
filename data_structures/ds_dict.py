@@ -346,3 +346,14 @@ dict10 = {
 
 print('dev' in dict10.values())         # True
 print('60000' in dict10.values())       # False
+print()
+
+# FIND DICTIONARY LENGETH
+# To find how many key:value pairs a dictionary has, use len() method.
+dict11 = {
+    'name': 'bob',
+    'age': 28,
+    'job': 'dev'
+}
+
+print(len(dict11))
