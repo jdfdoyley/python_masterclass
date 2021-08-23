@@ -99,3 +99,23 @@ employees6['emp1']['job'] = 'Eng'
 
 print(employees6['emp1'])
 print()
+
+# ADD OR UPDATE NESTED DICTIONARY ITEMS
+# Adding or updating nested dictionary items is easy. Just refer to the item by
+# its key and assign a value. If the key is already present in the dictionary,
+# its value is replaced by the new one.
+employees7 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+employees7['emp2'] = {'name': 'Ari', 'job': 'Designer'}
+
+print(employees7)
+print()
+
+# If the key is new, it is added to the dictionary with its value.
+employees7['emp2'] = {'name': 'Ari', 'job': 'Designer', 'salary': 104000.0}
+print(employees7)
+print()
