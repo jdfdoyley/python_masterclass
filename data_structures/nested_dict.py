@@ -162,3 +162,16 @@ removed_item = employees10.pop('emp2')
 print("Updated List:", employees10)
 print("Removed Item:", removed_item)
 print()
+
+# If you don't need the removed value, use the del statement
+employees11 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+# Remove emp2 from the list
+del employees11['emp2']
+
+print("Updated List:", employees11)
+print()
