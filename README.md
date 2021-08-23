@@ -235,3 +235,23 @@ Python Dictionary (con't)
 ### Day 14 of #100DaysOfCode
 
 Python Dictionary - Practice
+
+- Check if a Key or Value Exists
+- Find Dictionary Length
+- Practice using what I've learnt to create a simple application
+
+---
+
+### Day 15 of #100DaysOfCode
+
+Python Nested Dictionary
+
+- What is Python Nested Dictionary?
+- Create a Nested Dictionary
+- The dict() Constructor
+- Access Nested Dictionary Items
+- Change Nested Dictionary Items
+- Add or Update Nested Dictionary Items
+- Merge Two Nested Dictionaries
+- Remove Nested Dictionary Items
+- Iterate Through a Nested Dictionary
