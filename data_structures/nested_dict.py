@@ -143,3 +143,22 @@ employees8.update(employees9)
 print("Merge List:", employees8)
 print("Number of Items:", len(employees8))
 print()
+
+# REMOVE NESTED DICTIONARY ITEMS
+# There are several ways to remove items from a nested dictionary.
+
+# Remove an Item by Key
+# If you know the key of the item you want, you can use pop() method. It
+# removes the key and returns its value.
+employees10 = {
+    'emp1': {'name': 'Bob', 'job': 'Mgr'},
+    'emp2': {'name': 'Kim', 'job': 'Dev'},
+    'emp3': {'name': 'Sam', 'job': 'Dev'}
+}
+
+# Remove emp2 from the list
+removed_item = employees10.pop('emp2')
+
+print("Updated List:", employees10)
+print("Removed Item:", removed_item)
+print()
