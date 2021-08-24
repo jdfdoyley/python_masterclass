@@ -45,3 +45,15 @@ nested_tuple = ('red', ('green', 'blue'), 'yellow')
 # object.
 sharks = ("Hammerhead", "Sand", "Sawshark", "Ccatshark", "Cow")
 print(sharks)
+
+# TUPLE UNPACKING
+# When a packed tuple is assigned to a new tuple, the individual items are
+# unpacked (assigned to the items of a new tuple).
+sharks = ("Hammerhead", "Sand", "Sawshark", "Catshark", "Cow")
+(a, b, c, d, e) = sharks
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
