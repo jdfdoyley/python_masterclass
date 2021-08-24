@@ -39,3 +39,9 @@ print(shark)
 # themselves, and so on. This is known as nested tuple. You can use them to
 # arrange data into hierarchical structures.
 nested_tuple = ('red', ('green', 'blue'), 'yellow')
+
+# TUPLE PACKING
+# When a tuple is created, the items in the tuple are packed together into the
+# object.
+sharks = ("Hammerhead", "Sand", "Sawshark", "Ccatshark", "Cow")
+print(sharks)
