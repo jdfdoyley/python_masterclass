@@ -16,3 +16,9 @@ mixed = (1, 3.14, True, "Harry")
 # A tuple containing zero items is called an empty tuple and you can create one
 # with empty brackets ()
 empty = ()
+
+# SINGLETON TUPLE
+# If you have only one value in a tuple, you can indicate this by including a
+# trailing comma , just before the closing parentheses.
+singleton_tuple = ('Hammerhead',)
+print(type(singleton_tuple))
