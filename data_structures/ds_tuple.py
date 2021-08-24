@@ -22,3 +22,14 @@ empty = ()
 # trailing comma , just before the closing parentheses.
 singleton_tuple = ('Hammerhead',)
 print(type(singleton_tuple))
+
+# THE tuple() CONSTRUCTOR
+# You can convert other data types to tuple using Python’s tuple() constructor.
+
+# Convert a string to a tuple
+int_tuple = tuple([1, 2, 3, 4, 5, 6])
+print(int_tuple)
+
+# Convert a string to a tuple
+shark = tuple('Sawshark')
+print(shark)
