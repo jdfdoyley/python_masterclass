@@ -33,3 +33,9 @@ print(int_tuple)
 # Convert a string to a tuple
 shark = tuple('Sawshark')
 print(shark)
+
+# NESTED TUPLES
+# A tuple can contain sub-tuple, which in turn can contain sub-tuples
+# themselves, and so on. This is known as nested tuple. You can use them to
+# arrange data into hierarchical structures.
+nested_tuple = ('red', ('green', 'blue'), 'yellow')
