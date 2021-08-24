@@ -255,3 +255,27 @@ Python Nested Dictionary
 - Merge Two Nested Dictionaries
 - Remove Nested Dictionary Items
 - Iterate Through a Nested Dictionary
+
+---
+
+### Day 16 of #100DaysOfCode
+
+Python Tuple
+
+- What is Python Tuple?
+- Create a Tuple
+- Singleton Tuple
+- The tuple() Constructor
+- Nested Tuples
+- Tuple Packing Unpacking
+- Access Tuple Items
+- Tuple Slicing
+- Change Tuple Items
+- Delete a Tuple
+- Tuple Concatenation Repetition
+- Find Tuple Length
+- Check if item exists in a tuple
+- Iterate through a tuple
+- Tuple Sorting
+- Python Tuple Methods
+- Built-in Functions with Tuple
