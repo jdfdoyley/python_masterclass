@@ -104,3 +104,11 @@ print(orchids)
 # To find how many items a set has, use len() method.
 orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
 print(len(orchids))
+
+# ITERATE THROUGH A SET
+# To iterate over the items of a set, use a simple for loop
+
+# Iterate through the orchid set and print each item of the set
+orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
+for orchid in orchids:
+    print(orchid.title())
