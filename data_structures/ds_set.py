@@ -135,10 +135,10 @@ A = {2, 4, 6, 8}
 B = {4, 8, 16, 20}
 
 # by operator
-print(A | B)
+print(A | B)                # {2, 4, 6, 8, 16, 20}
 
 # by method
-print(A.union(B))
+print(A.union(B))           # {2, 4, 6, 8, 16, 20}
 print()
 
 # SET INTERSECTION
@@ -148,8 +148,20 @@ A = {2, 4, 6, 8}
 B = {4, 8, 16, 20}
 
 # by operator
-print(A & B)
+print(A & B)                # {8, 4}
 
 # by method
-print(A.intersection(B))
+print(A.intersection(B))    # {8, 4}
 print()
+
+# SET DIFFERENCE
+# You can compute the difference between two or more sets using difference()
+# method or - operator.
+A = {2, 4, 6, 8}
+B = {4, 8, 16, 20}
+
+# by operator
+print(A - B)                # {6, 2}
+
+# by method
+print(A.difference(B))      # {6, 2}
