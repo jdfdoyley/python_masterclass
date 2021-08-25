@@ -39,3 +39,18 @@ S = {1, 'abc', ('a', 'b'), True}
 
 # Invalid set items
 # S = {[1, 2], {'a': 1, 'b': 2}}  # TypeError: unhashable type: 'list'
+
+# SET CONSTRUCTOR
+# You can also create a set using a type constructor called set()
+
+# Set of items in a iterable
+strings = set('abc')
+print(strings)
+
+# Set of successive integers
+integers = set(range(0, 4))
+print(integers)
+
+# Convert a list into a set
+lists = set([1, 3, 5, 7, 9])
+print(lists)
