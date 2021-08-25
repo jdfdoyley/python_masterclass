@@ -112,3 +112,14 @@ print(len(orchids))
 orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
 for orchid in orchids:
     print(orchid.title())
+
+# CHECK IF ITEM EXISTS IN A SET
+# To check if a specific item is present in a set, you can use in and not in
+# operators with an if statement
+
+# Check if cattleya is present in the set
+orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
+print('cattleya' in orchids)        # True
+
+# Check to make sure the venus orchid is not in the set
+print('venus' not in orchids)       # True
