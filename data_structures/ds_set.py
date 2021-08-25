@@ -67,3 +67,35 @@ print(orchids)
 # Add three more types of orchid to the set
 orchids.update(['dancing-lady', 'flat-leaved', "nun's hood"])
 print(orchids)
+
+# REMOVE ITEMS FROM A SET
+# To remove a single item from a set, use the remove() or discard() method.
+
+# using the remove() method, remove the vanda orchid from the set
+orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper',
+           'dancing-lady', 'flat-leaved', "nun's hood", 'venus'}
+orchids.remove('vanda')
+print(orchids)
+
+# using the discard method, remove the flat-leaved orchid from the set
+orchids.discard('flat-leaved')
+print(orchids)
+
+# Note: remove() vs discard()
+# Both methods work exactly the same. The only difference is that If specified
+# item is not present in a set:
+#       remove() method raises KeyError
+#       discard() method does nothing
+
+# The pop() method removes random item from a set and returns it
+
+# Randomly remove an item from the set and then return it to the user
+popped_item = orchids.pop()
+print(orchids)
+print(f"Popped Item: {popped_item}")
+
+# To remove all the items from a set, the clear() method is recommened
+
+# Remove all the items from the orchid set
+orchids.clear()
+print(orchids)
