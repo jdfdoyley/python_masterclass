@@ -99,3 +99,8 @@ print(f"Popped Item: {popped_item}")
 # Remove all the items from the orchid set
 orchids.clear()
 print(orchids)
+
+# FIND SET SIZE
+# To find how many items a set has, use len() method.
+orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
+print(len(orchids))
