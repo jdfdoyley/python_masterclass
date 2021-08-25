@@ -139,3 +139,17 @@ print(A | B)
 
 # by method
 print(A.union(B))
+print()
+
+# SET INTERSECTION
+# You can perform intersection on two or more sets using intersection() method
+# or & operator.
+A = {2, 4, 6, 8}
+B = {4, 8, 16, 20}
+
+# by operator
+print(A & B)
+
+# by method
+print(A.intersection(B))
+print()
