@@ -123,3 +123,19 @@ print('cattleya' in orchids)        # True
 
 # Check to make sure the venus orchid is not in the set
 print('venus' not in orchids)       # True
+print()
+
+# SET OPERATIONS
+# Sets are commonly used for computing mathematical operations such as
+# intersection, union, difference, and symmetric difference.
+
+# SET UNION
+# You can perform union on two or more sets using union() method or | operator.
+A = {2, 4, 6, 8}
+B = {4, 8, 16, 20}
+
+# by operator
+print(A | B)
+
+# by method
+print(A.union(B))
