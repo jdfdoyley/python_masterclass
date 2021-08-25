@@ -183,3 +183,36 @@ print(A ^ B)                                # {2, 6, 16, 20}
 
 # by method
 print(A.symmetric_difference(B))            # {2, 6, 16, 20}
+print()
+
+# PYTHON FROZENSET
+# Python provides another built-in type called a frozenset. Frozenset is just
+# like set, only immutable (unchangeable).
+
+# You can create a frozenset using frozenset() method. It freezes the given
+# sequence and makes it unchangeable.
+letters = frozenset({'red', 'green', 'blue'})
+print(letters)
+
+# As frozensets are unchangeable, you can perform non-modifying operations on
+# them.
+# finding size
+letters = frozenset({'red', 'green', 'blue'})
+print(len(letters))
+
+# performing union
+letters = frozenset({'red', 'green', 'blue'})
+print(letters | {'yellow'})
+
+# However, methods that attempt to modify a frozenset will raise error
+# removing an item
+S = frozenset({'red', 'green', 'blue'})
+# S.pop()         # AttributeError: 'frozenset' object has no attribute 'pop'
+
+# adding an item
+S = frozenset({'red', 'green', 'blue'})
+# S.add('yellow') # AttributeError: 'frozenset' object has no attribute 'add'
+
+# Unlike sets, frozensets are unchangeable so they can be used as keys to a dictionary.
+
+# For example, D = {frozenset(['dev','mgr']):'Bob'}
