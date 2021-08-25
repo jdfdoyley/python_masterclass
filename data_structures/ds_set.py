@@ -54,3 +54,16 @@ print(integers)
 # Convert a list into a set
 lists = set([1, 3, 5, 7, 9])
 print(lists)
+
+# ADD ITEMS TO A SET
+# You can add a single item to a set using the add() method.
+orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
+
+# Add a sixth orchid to the set
+orchids.add('venus')
+print(orchids)
+
+# You can add multiple items to a set using the update() method.
+# Add three more types of orchid to the set
+orchids.update(['dancing-lady', 'flat-leaved', "nun's hood"])
+print(orchids)
