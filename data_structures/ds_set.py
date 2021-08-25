@@ -119,10 +119,10 @@ for orchid in orchids:
 
 # Check if cattleya is present in the set
 orchids = {'moth', 'boat', 'vanda', 'cattleya', 'slipper'}
-print('cattleya' in orchids)        # True
+print('cattleya' in orchids)                # True
 
 # Check to make sure the venus orchid is not in the set
-print('venus' not in orchids)       # True
+print('venus' not in orchids)               # True
 print()
 
 # SET OPERATIONS
@@ -130,38 +130,56 @@ print()
 # intersection, union, difference, and symmetric difference.
 
 # SET UNION
+# Union of the sets A and B is the set of all items in either A or B
 # You can perform union on two or more sets using union() method or | operator.
 A = {2, 4, 6, 8}
 B = {4, 8, 16, 20}
 
 # by operator
-print(A | B)                # {2, 4, 6, 8, 16, 20}
+print(A | B)                                # {2, 4, 6, 8, 16, 20}
 
 # by method
-print(A.union(B))           # {2, 4, 6, 8, 16, 20}
+print(A.union(B))                           # {2, 4, 6, 8, 16, 20}
 print()
 
 # SET INTERSECTION
+# Intersection of the sets A and B is the set of items common to both A and B.
 # You can perform intersection on two or more sets using intersection() method
 # or & operator.
 A = {2, 4, 6, 8}
 B = {4, 8, 16, 20}
 
 # by operator
-print(A & B)                # {8, 4}
+print(A & B)                                # {8, 4}
 
 # by method
-print(A.intersection(B))    # {8, 4}
+print(A.intersection(B))                    # {8, 4}
 print()
 
 # SET DIFFERENCE
+# Set Difference of A and B is the set of all items that are in A but not in B.
 # You can compute the difference between two or more sets using difference()
 # method or - operator.
 A = {2, 4, 6, 8}
 B = {4, 8, 16, 20}
 
 # by operator
-print(A - B)                # {6, 2}
+print(A - B)                                # {6, 2}
 
 # by method
-print(A.difference(B))      # {6, 2}
+print(A.difference(B))                      # {6, 2}
+print()
+
+# SET SYMMETRIC DIFFERENCE
+# Symmetric difference of sets A and B is the set of all elements in either A
+# or B, but not both.
+# You can compute symmetric difference between two or more sets using
+# symmetric_difference() method or ^ operator.
+A = {2, 4, 6, 8}
+B = {4, 8, 16, 20}
+
+# by operator
+print(A ^ B)                                # {2, 6, 16, 20}
+
+# by method
+print(A.symmetric_difference(B))            # {2, 6, 16, 20}
