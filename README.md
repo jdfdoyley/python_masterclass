@@ -279,3 +279,21 @@ Python Tuple
 - Tuple Sorting
 - Python Tuple Methods
 - Built-in Functions with Tuple
+
+---
+
+### Day 17 of #100DaysOfCode
+
+Python Set
+
+- What is Python Set?
+- Create a Set
+- Set constructor
+- Add Items to a Set
+- Remove Set Items
+- Find Set Size
+- Iterate Through a Set
+- Check if Item Exists in a Set
+- Set Operations
+- Python Frozenset
+- Built-in Set Functions
